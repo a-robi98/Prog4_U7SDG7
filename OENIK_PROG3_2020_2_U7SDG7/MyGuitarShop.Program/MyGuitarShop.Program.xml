@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Program</name>
+    </assembly>
+    <members>
+        <member name="T:MyGuitarShop.Program.ProgramClass">
+            <summary>
+            Program layer ProgramClass class.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Program.ProgramClass.Main">
+            <summary>
+            Main method, where everything gets initialized.
+            </summary>
+        </member>
+    </members>
+</doc>

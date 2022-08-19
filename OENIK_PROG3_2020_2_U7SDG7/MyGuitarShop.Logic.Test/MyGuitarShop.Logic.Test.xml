@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Logic.Test</name>
+    </assembly>
+    <members>
+        <member name="T:MyGuitarShop.Logic.Test.ManagementTests">
+            <summary>
+            Has the tests of ManagementLogic.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.mockedGuitarRepo">
+            <summary>
+            Mocked Guitar Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.mockedAmpRepo">
+            <summary>
+            Mocked Amp Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.mockedAccessoryRepo">
+            <summary>
+            Mocked Accessory Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.mockedGuitarAmpRepo">
+            <summary>
+            Mocked Accessory Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.mockedGuitarAccessoryRepo">
+            <summary>
+            Mocked Accessory Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.expectedGuitarAccComboPrices">
+            <summary>
+            Contains the expected GuitarAccessory Combo Prices which is used in TestGetPriceForGuitarAccessoryCombos method.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.expectedGuitarAmpComboPrices">
+            <summary>
+            Contains the expected GuitarAmp Combo Prices which is used in TestGetPriceForGuitarAmpCombos method.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ManagementTests.expectedGuitarAccCount">
+            <summary>
+            Contains the expected GuitarAccessory Counts which is used in TestGuitarAccessoryCount method.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.ManagementTests.TestRemoveFromGuitar">
+            <summary>
+            Tests RemoveFromGuitar logic method.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.ManagementTests.TestGuitarAccessoryCount">
+            <summary>
+            Tests GuitarAccessoryCount ManagementLogic method.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.ManagementTests.TestGetPriceForGuitarAccessoryCombos">
+            <summary>
+            Tests GetPriceForGuitarAccessoryCombos ManagementLogic method.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.ManagementTests.TestGetPriceForGuitarAmpCombos">
+            <summary>
+            Tests GetPriceForGuitarAccessoryCombos ManagementLogic method.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Logic.Test.ProcurementTests">
+            <summary>
+            Has the tests of ProcurementLogic.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ProcurementTests.mockedGuitarRepo">
+            <summary>
+            Mocked Guitar Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ProcurementTests.mockedAmpRepo">
+            <summary>
+            Mocked Amp Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.ProcurementTests.mockedAccessoryRepo">
+            <summary>
+            Mocked Accessory Repository used for tests.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.ProcurementTests.TestChangeAmpBrand">
+            <summary>
+            Tests ChangeAmpBrand Procurement Logic method.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.ProcurementTests.TestInsertAccessory">
+            <summary>
+            Tests ChangeAmpBrand Procurement Logic method.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Logic.Test.SellerTests">
+            <summary>
+            Has the tests of SellerLogic.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.SellerTests.mockedGuitarRepo">
+            <summary>
+            Mocked Guitar Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.SellerTests.mockedAmpRepo">
+            <summary>
+            Mocked Amp Repository used for tests.
+            </summary>
+        </member>
+        <member name="F:MyGuitarShop.Logic.Test.SellerTests.mockedAccessoryRepo">
+            <summary>
+            Mocked Accessory Repository used for tests.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.SellerTests.TestGetAllGuitars">
+            <summary>
+            Tests GetAllGuitars Seller Logic method.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.Test.SellerTests.TestGetAmpById">
+            <summary>
+            Tests GetAmpById Seller Logic method.
+            </summary>
+        </member>
+    </members>
+</doc>

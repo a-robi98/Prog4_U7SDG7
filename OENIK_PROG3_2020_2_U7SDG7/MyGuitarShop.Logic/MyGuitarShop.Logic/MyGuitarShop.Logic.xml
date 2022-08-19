@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Logic</name>
+    </assembly>
+    <members>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetGuitarAmpCombos">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

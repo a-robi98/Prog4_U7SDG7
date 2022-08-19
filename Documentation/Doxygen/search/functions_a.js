@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['testchangeampbrand_243',['TestChangeAmpBrand',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_procurement_tests.html#a2188c2384b74b5ee66422a2258ab2371',1,'MyGuitarShop::Logic::Test::ProcurementTests']]],
+  ['testgetallguitars_244',['TestGetAllGuitars',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_seller_tests.html#a3144959618f23f1729f2cd0922120d25',1,'MyGuitarShop::Logic::Test::SellerTests']]],
+  ['testgetampbyid_245',['TestGetAmpById',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_seller_tests.html#ace90e724990f6e9337e2eb27ebd54d1d',1,'MyGuitarShop::Logic::Test::SellerTests']]],
+  ['testgetpriceforguitaraccessorycombos_246',['TestGetPriceForGuitarAccessoryCombos',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_management_tests.html#a1f9ba0cda41ab88bc69eb85c8cfd2c4b',1,'MyGuitarShop::Logic::Test::ManagementTests']]],
+  ['testgetpriceforguitarampcombos_247',['TestGetPriceForGuitarAmpCombos',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_management_tests.html#ac0f563ca117320852da2b07cb4507525',1,'MyGuitarShop::Logic::Test::ManagementTests']]],
+  ['testguitaraccessorycount_248',['TestGuitarAccessoryCount',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_management_tests.html#acb7641ee4772ec750f61079e01e1c00a',1,'MyGuitarShop::Logic::Test::ManagementTests']]],
+  ['testinsertaccessory_249',['TestInsertAccessory',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_procurement_tests.html#a22fea0cae80a103d0070fea42efaee24',1,'MyGuitarShop::Logic::Test::ProcurementTests']]],
+  ['testremovefromguitar_250',['TestRemoveFromGuitar',['../class_my_guitar_shop_1_1_logic_1_1_test_1_1_management_tests.html#a78c82200759096927ab8aef16faa794f',1,'MyGuitarShop::Logic::Test::ManagementTests']]],
+  ['tostring_251',['ToString',['../class_my_guitar_shop_1_1_logic_1_1_guitar_accessory_combo_price.html#adfcfbe720a4706bff2f374b691ed4428',1,'MyGuitarShop.Logic.GuitarAccessoryComboPrice.ToString()'],['../class_my_guitar_shop_1_1_logic_1_1_guitar_accessory_combos.html#a125956cc50ea8a87f4adf41342709aac',1,'MyGuitarShop.Logic.GuitarAccessoryCombos.ToString()'],['../class_my_guitar_shop_1_1_logic_1_1_guitar_accessory_count.html#a9e549ed82e3ba68b7dd9c8a27724670a',1,'MyGuitarShop.Logic.GuitarAccessoryCount.ToString()'],['../class_my_guitar_shop_1_1_logic_1_1_guitar_amp_combo_price.html#ad343811c7c3344415f249e6340512289',1,'MyGuitarShop.Logic.GuitarAmpComboPrice.ToString()'],['../class_my_guitar_shop_1_1_logic_1_1_guitar_amp_combos.html#ae3f6e232c0426803e2e6ef6d10fcb5c1',1,'MyGuitarShop.Logic.GuitarAmpCombos.ToString()']]]
+];

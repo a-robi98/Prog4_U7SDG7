@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Program</name>
+    </assembly>
+    <members>
+        <member name="T:MyGuitarShop.Program.Program">
+            <summary>
+            Nem tudom még.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Program.Program.Main(System.String[])">
+            <summary>
+            Főprogram.
+            </summary>
+            <param name="args"> argumentum. </param>
+        </member>
+    </members>
+</doc>

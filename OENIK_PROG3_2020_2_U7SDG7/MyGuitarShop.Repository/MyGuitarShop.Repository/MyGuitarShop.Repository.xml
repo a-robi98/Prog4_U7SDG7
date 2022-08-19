@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:MyGuitarShop.Repository.IAccessoryRepository">
+            <summary>
+            Text.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IAmpRepository">
+            <summary>
+            Text.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IGuitarRepository">
+            <summary>
+            Text.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IRepository`1">
+            <summary>
+            Text.
+            </summary>
+        </member>
+    </members>
+</doc>

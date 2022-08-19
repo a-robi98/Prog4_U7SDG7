@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:MyGuitarShop.Repository.AccessoryRepository">
+            <summary>
+            AccessoryRepository class /RepositoryClass layer.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AccessoryRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Repository.AccessoryRepository"/> class.
+            </summary>
+            <param name="ctx">DbContext type context.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AccessoryRepository.ChangeDetermination(System.Int32,System.String)">
+            <summary>
+            Changes one Accessory entity's determination.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newDetermination">To what determination.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AccessoryRepository.ChangeDiscountPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes one Accessory entity's discount price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newDiscountPrice">To what discount price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AccessoryRepository.ChangeModell(System.Int32,System.String)">
+            <summary>
+            Changes one Accessory entity's modell.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AccessoryRepository.ChangePrice(System.Int32,System.Int32)">
+            <summary>
+            Changes one Accessory entity's price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AccessoryRepository.ChangeQuantity(System.Int32,System.Int32)">
+            <summary>
+            Changes one Accessory entity's quantity.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newQuantity">To what quantity.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AccessoryRepository.GetOne(System.Int32)">
+            <summary>
+            Gets one Accessory entity by given id.
+            </summary>
+            <param name="id">Id of the entity to get.</param>
+            <returns>Accessory entity.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Repository.AmpRepository">
+            <summary>
+            AmpRepository class /RepositoryClass layer.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AmpRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Repository.AmpRepository"/> class.
+            </summary>
+            <param name="ctx">DbContext type context.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AmpRepository.ChangeBrand(System.Int32,System.String)">
+            <summary>
+            Changes one Amp entity's brand.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AmpRepository.ChangeModell(System.Int32,System.String)">
+            <summary>
+            Changes one Amp entity's modell.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AmpRepository.ChangePrice(System.Int32,System.Int32)">
+            <summary>
+            Change one Guitar entity's price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.AmpRepository.GetOne(System.Int32)">
+            <summary>
+            Gets one Amp entity by given id.
+            </summary>
+            <param name="id">Id of the entity to get.</param>
+            <returns>Amp entity.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Repository.GuitarAccessoryRepository">
+            <summary>
+            GuitarAccessoryRepository class /RepositoryClass layer.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarAccessoryRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Repository.GuitarAccessoryRepository"/> class.
+            </summary>
+            <param name="ctx">DbContext type context.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarAccessoryRepository.GetOne(System.Int32)">
+            <summary>
+            Gets one GuitarAccessory entity by given id.
+            </summary>
+            <param name="id">Id of the entity to get.</param>
+            <returns>GuitarAccessory entity.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Repository.GuitarAmpRepository">
+            <summary>
+            GuitarAmpRepository class /RepositoryClass layer.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarAmpRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Repository.GuitarAmpRepository"/> class.
+            </summary>
+            <param name="ctx">DbContext type context.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarAmpRepository.GetOne(System.Int32)">
+            <summary>
+            Gets one GuitarAmp entity by given id.
+            </summary>
+            <param name="id">Id of the entity to get.</param>
+            <returns>GuitarAmp entity.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Repository.GuitarRepository">
+            <summary>
+            GuitarRepository class /RepositoryClass layer.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarRepository.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Repository.GuitarRepository"/> class.
+            </summary>
+            <param name="ctx">DbContext type context.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarRepository.ChangeBrand(System.Int32,System.String)">
+            <summary>
+            Changes one Guitar entity's brand.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarRepository.ChangeModell(System.Int32,System.String)">
+            <summary>
+            Changes one Guitar entity's modell.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarRepository.ChangePrice(System.Int32,System.Int32)">
+            <summary>
+            Change one Guitar entity's price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.GuitarRepository.GetOne(System.Int32)">
+            <summary>
+            Gets one Guitar entity by given id.
+            </summary>
+            <param name="id">Id of the entity to get.</param>
+            <returns>Guitar entity.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IAccessoryRepository">
+            <summary>
+            IAccessoryRepository interface.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAccessoryRepository.ChangeDetermination(System.Int32,System.String)">
+            <summary>
+            Changes one Accessory entity's determination.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newDetermination">To what determination.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAccessoryRepository.ChangeModell(System.Int32,System.String)">
+            <summary>
+            Changes one Accessory entity's modell.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAccessoryRepository.ChangeQuantity(System.Int32,System.Int32)">
+            <summary>
+            Changes one Accessory entity's quantity.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newQuantity">To what quantity.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAccessoryRepository.ChangePrice(System.Int32,System.Int32)">
+            <summary>
+            Changes one Accessory entity's price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAccessoryRepository.ChangeDiscountPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes one Accessory entity's discount price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newDiscountPrice">To what discount price.</param>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IAmpRepository">
+            <summary>
+            IAmpRepository interface.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAmpRepository.ChangeBrand(System.Int32,System.String)">
+            <summary>
+            Changes one Amp entity's brand.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAmpRepository.ChangeModell(System.Int32,System.String)">
+            <summary>
+            Changes one Amp entity's modell.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IAmpRepository.ChangePrice(System.Int32,System.Int32)">
+            <summary>
+            Change one Guitar entity's price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IGuitarAccessoryRepository">
+            <summary>
+            IGuitarAccessoryRepository interface.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IGuitarAmpRepository">
+            <summary>
+            IGuitarAmpRepository interface.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IGuitarRepository">
+            <summary>
+            IGuitarRepository interface.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IGuitarRepository.ChangeBrand(System.Int32,System.String)">
+            <summary>
+            Changes one Guitar entity's brand.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IGuitarRepository.ChangeModell(System.Int32,System.String)">
+            <summary>
+            Changes one Guitar entity's modell.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IGuitarRepository.ChangePrice(System.Int32,System.Int32)">
+            <summary>
+            Change one Guitar entity's price.
+            </summary>
+            <param name="id">Id of the entity.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="T:MyGuitarShop.Repository.IRepository`1">
+            <summary>
+            IRepository interface.
+            </summary>
+            <typeparam name="T">Must be an entity.</typeparam>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IRepository`1.GetOne(System.Int32)">
+            <summary>
+            Gets one T entity by entity id.
+            </summary>
+            <param name="id">The id of the entity to return.</param>
+            <returns>A T entity.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IRepository`1.GetAll">
+            <summary>
+            Gets all of the entities of the T entity.
+            </summary>
+            <returns>A collection of T entities.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IRepository`1.Remove(`0)">
+            <summary>
+            Removes a T entity from T entity class.
+            </summary>
+            <param name="entity">Entity to remove.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.IRepository`1.Insert(`0)">
+            <summary>
+            Inserts a T entity to T entity class.
+            </summary>
+            <param name="entity">Entity to insert.</param>
+        </member>
+        <member name="T:MyGuitarShop.Repository.RepositoryClass`1">
+            <summary>
+            General RepositoryClass class.
+            </summary>
+            <typeparam name="T">Must be an entity.</typeparam>
+        </member>
+        <member name="F:MyGuitarShop.Repository.RepositoryClass`1.ctx">
+            <summary>
+            Stores the entity's context.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.RepositoryClass`1.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Repository.RepositoryClass`1"/> class.
+            </summary>
+            <param name="ctx">Some kind of context.</param>
+        </member>
+        <member name="P:MyGuitarShop.Repository.RepositoryClass`1.Ctx">
+            <summary>
+            Gets or sets ctx field to the inherited classes.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Repository.RepositoryClass`1.GetAll">
+            <summary>
+            Gets all of T entities.
+            </summary>
+            <returns>A collection of T entities.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Repository.RepositoryClass`1.GetOne(System.Int32)">
+            <summary>
+            Gets one T entity by given id.
+            </summary>
+            <param name="id">Id of the entity to get.</param>
+            <returns>T entity.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Repository.RepositoryClass`1.Insert(`0)">
+            <summary>
+            Inserts one T entity into T entity class.
+            </summary>
+            <param name="entity">Entity to insert.</param>
+        </member>
+        <member name="M:MyGuitarShop.Repository.RepositoryClass`1.Remove(`0)">
+            <summary>
+            Removes a T entity from T entity class.
+            </summary>
+            <param name="entity">Entity to remove.</param>
+        </member>
+    </members>
+</doc>

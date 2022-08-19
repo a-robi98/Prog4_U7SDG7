@@ -1,0 +1,684 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Logic</name>
+    </assembly>
+    <members>
+        <member name="T:MyGuitarShop.Logic.GuitarAccessoryComboPrice">
+            <summary>
+            This class is used when a GetPriceForGuitarAccessoryCombos() method returns a list.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryComboPrice.GuitarAccessoryCombosData">
+            <summary>
+            Gets or sets GuitarAccessoryCombos to this GuitarAccessoryComboPrice instance.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryComboPrice.GuitarAccessoryPrice">
+            <summary>
+            Gets or sets the GuitarAccessory combos's Price.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryComboPrice.ToString">
+            <summary>
+            Gets a formatted string of a GuitarAccesoryComboPrice instance.
+            </summary>
+            <returns>A string which contains the properties of a GuitarAccessoryComboPrice instance.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryComboPrice.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">Type object which we want to liken to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryComboPrice.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique to this instance int.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.GuitarAccessoryCombos">
+            <summary>
+            This class is used when a GetGuitarAccessoryCombos() method returns a list.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCombos.GuitarId">
+            <summary>
+            Gets or sets the GuitarId of GuitarAccessoryCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCombos.GuitarBrand">
+            <summary>
+            Gets or sets the GuitarBrand of GuitarAccessoryCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCombos.GuitarModell">
+            <summary>
+            Gets or sets the GuitarModell of GuitarAccessoryCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCombos.AccessoryId">
+            <summary>
+            Gets or sets the AccessoryId of GuitarAccessoryCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCombos.AccessoryBrand">
+            <summary>
+            Gets or sets the AccessoryBrand of GuitarAccessoryCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCombos.AccessoryModell">
+            <summary>
+            Gets or sets the AccessoryModell of GuitarAccessoryCombos.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryCombos.ToString">
+            <summary>
+            Gets a formatted string of a GuitarAccessoryCombo instance.
+            </summary>
+            <returns>A string which contains the properties of a GuitarAccessoryCombo instance.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryCombos.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">Type object which we want to liken to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryCombos.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique int.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.GuitarAccessoryCount">
+            <summary>
+            This class is used when a GuitarAccessouryCount() method returns a list.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCount.GuitarName">
+            <summary>
+            Gets or sets the GuitarName of GuitarAccessoryCount.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAccessoryCount.AccessoryCount">
+            <summary>
+            Gets or sets the Accessory of GuitarAccessoryCount.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryCount.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">Type object which we want to liken to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryCount.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique int.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAccessoryCount.ToString">
+            <summary>
+            Gets a formatted string of a GuitarAccessoryCount instance.
+            </summary>
+            <returns>A string which contains the properties of a GuitarAccessoryCount instance.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.GuitarAmpComboPrice">
+            <summary>
+            This class is used when a GetPriceForGuitarAmpCombos() method returns a list.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpComboPrice.GuitarAmpCombosData">
+            <summary>
+            Gets or sets GuitarAmpCombos to this GuitarAmpComboPrice instance.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpComboPrice.GuitarAmpPrice">
+            <summary>
+            Gets or sets the GuitarAmp combos's Price.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAmpComboPrice.ToString">
+            <summary>
+            Gets a formatted string of a GuitarAmpComboPrice instance.
+            </summary>
+            <returns>A string which contains the properties of a GuitarAmpComboPrice instance.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAmpComboPrice.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">Type object which we want to liken to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAmpComboPrice.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique to this instance int.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.GuitarAmpCombos">
+            <summary>
+            This class is used when a GetGuitarAmpCombos() method returns a list.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpCombos.GuitarId">
+            <summary>
+            Gets or sets the GuitarId of GuitarAmpCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpCombos.GuitarBrand">
+            <summary>
+            Gets or sets the GuitarBrand of GuitarAmpCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpCombos.GuitarModell">
+            <summary>
+            Gets or sets the GuitarModell of GuitarAmpCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpCombos.AmpId">
+            <summary>
+            Gets or sets the AmpId of GuitarAmpCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpCombos.AmpBrand">
+            <summary>
+            Gets or sets the AmpBrand of GuitarAmpCombos.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Logic.GuitarAmpCombos.AmpModell">
+            <summary>
+            Gets or sets the AmpModell of GuitarAmpCombos.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAmpCombos.ToString">
+            <summary>
+            Gets a formatted string of a GuitarAmpCombo instance.
+            </summary>
+            <returns>A string which contains the properties of a GuitarAmpCombo instance.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAmpCombos.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">Type object which we want to liken to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.GuitarAmpCombos.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique int.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.IManagementLogic">
+            <summary>
+            Functions that a member of Management uses.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.RemoveFromGuitar(MyGuitarShop.Data.Guitar)">
+            <summary>
+            Removes a specific Guitar from Guitar table.
+            </summary>
+            <param name="guitar">The Guitar to be removed.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.RemoveFromAmp(MyGuitarShop.Data.Amp)">
+            <summary>
+            Removes a specific Amp from Amp table.
+            </summary>
+            <param name="amp">The Amp to be removed.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.RemoveFromAccessory(MyGuitarShop.Data.Accessory)">
+            <summary>
+            Removes a specific Accessory from Accessory table.
+            </summary>
+            <param name="acc">The Accessory to be removed.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.GetPriceForGuitarAmpCombos">
+            <summary>
+            Gets the prices for Guitar-Amp combos.
+            </summary>
+            <returns>A list of GuitarAmpComboPrices.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.GetPriceForGuitarAccessoryCombos">
+            <summary>
+            Gets the prices for Guitar-Accessory combos.
+            </summary>
+            <returns>A list of GuitarAccessoryComboPrices.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.GuitarAccessoryCount">
+            <summary>
+            Gives the count of how much Accessories are assigned to a specific Guitar.
+            </summary>
+            <returns>A list of GuitarAccessoryCount.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.GuitarAccessoryCountAsync">
+            <summary>
+            Gives the count of how much Accessories are assigned to a specific Guitar but with parallelism.
+            </summary>
+            <returns>A task out of lists out of GuitarAccessoryCount.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.GetPriceForGuitarAccessoryCombosAsync">
+            <summary>
+            Gives the price for a Guitar Amp Combo but with parallelism.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IManagementLogic.GetPriceForGuitarAmpCombosAsync">
+            <summary>
+            Gives the price for a Guitar Amp Combo but with parallelism.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.IProcurementLogic">
+            <summary>
+            Functions that a member of Procurement uses.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeGuitarBrand(System.Int32,System.String)">
+            <summary>
+            Changes a Guitar's brand.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeGuitarModell(System.Int32,System.String)">
+            <summary>
+            Changes a Guitar's modell.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeGuitarPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes a Guitar's price.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAmpBrand(System.Int32,System.String)">
+            <summary>
+            Changes an Amp's brand.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAmpModell(System.Int32,System.String)">
+            <summary>
+            Changes an Amp's brand.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAmpPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes an Amp's price.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAccessoryDetermination(System.Int32,System.String)">
+            <summary>
+            Changes an Accessory's determination.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newDetermination">To what determination.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAccessoryModell(System.Int32,System.String)">
+            <summary>
+            Changes an Accessory's modell.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAccessoryQuantity(System.Int32,System.Int32)">
+            <summary>
+            Changes an Accessory's quantity.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newQuantity">To what quantity.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAccessoryPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes an Accessory's price.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.ChangeAccessoryDiscountPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes an Accessory's discount price.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newDiscountPrice">To what discount price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.InsertGuitar(MyGuitarShop.Data.Guitar)">
+            <summary>
+            Inserts the given Guitar into the Guitar table.
+            </summary>
+            <param name="guitar">The Guitar to be inserted.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.InsertAmp(MyGuitarShop.Data.Amp)">
+            <summary>
+            Inserts the given Amp into the Amp table.
+            </summary>
+            <param name="amp">The Amp to be inserted.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.IProcurementLogic.InsertAccessory(MyGuitarShop.Data.Accessory)">
+            <summary>
+            Inserts the given Accessory into the Accessory table.
+            </summary>
+            <param name="accessory">The Accessory to be inserted.</param>
+        </member>
+        <member name="T:MyGuitarShop.Logic.ISellerLogic">
+            <summary>
+            Functions that a Seller uses.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetAllGuitars">
+            <summary>
+            Gets all the Guitars.
+            </summary>
+            <returns>A list of Guitars.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetAllAmps">
+            <summary>
+            Gets all the Amps.
+            </summary>
+            <returns>A list of Amps.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetAllAccessories">
+            <summary>
+            Gets all the Accessories.
+            </summary>
+            <returns>A list of Accessories.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetGuitarById(System.Int32)">
+            <summary>
+            Gets a specific Guitar by given id.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <returns>A Guitar.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetAmpById(System.Int32)">
+            <summary>
+            Gets a specific Amp by given id.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <returns>An Amp.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetAccessoryById(System.Int32)">
+            <summary>
+            Gets a specific Accessory by given id.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <returns>An Accessory.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetGuitarAmpCombos">
+            <summary>
+            Gets all the Guitar-Amp Combos.
+            </summary>
+            <returns>A list of GuitarAmps.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ISellerLogic.GetGuitarAccessoryCombos">
+            <summary>
+            Gets all the Guitar-Accessory Combos.
+            </summary>
+            <returns>A list of GuitarAccessories.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.ManagementLogic">
+            <summary>
+            This Logic class is responsible for Management related functions.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.#ctor(MyGuitarShop.Repository.IGuitarRepository,MyGuitarShop.Repository.IAmpRepository,MyGuitarShop.Repository.IAccessoryRepository,MyGuitarShop.Repository.IGuitarAmpRepository,MyGuitarShop.Repository.IGuitarAccessoryRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Logic.ManagementLogic"/> class.
+            </summary>
+            <param name="guitarrepo">A RepositoryClass class, which implements IGuitarRepository interface.</param>
+            <param name="amprepo">A RepositoryClass class, which implements IAmpRepository interface.</param>
+            <param name="accrepo">A RepositoryClass class, which implements IAccessoryRepository interface.</param>
+            <param name="guamrepo">A RepositoryClass class, which implements IGuitarAmpRepository interface.</param>
+            <param name="guaccrepo">A RepositoryClass class, which implements IGuitarAccessoryRepository interface.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.GetPriceForGuitarAmpCombos">
+            <summary>
+            Gets the prices for the Guitar-Amp Combos.
+            </summary>
+            <returns>A list of GuitarAmpComboPrice.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.GetPriceForGuitarAmpCombosAsync">
+            <summary>
+            Gives the price for a Guitar Amp Combo but with parallelism.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.GetPriceForGuitarAccessoryCombos">
+            <summary>
+            Gets the prices of Guitar-Accessory Combos.
+            </summary>
+            <returns>A List with the GuitarAccessoryComboPrice.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.GetPriceForGuitarAccessoryCombosAsync">
+            <summary>
+            Gives the price for a Guitar Amp Combo but with parallelism.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.RemoveFromAccessory(MyGuitarShop.Data.Accessory)">
+            <summary>
+            Removes a specific Accessory from Accessory table.
+            </summary>
+            <param name="acc">The Accessory which we want to remove.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.RemoveFromAmp(MyGuitarShop.Data.Amp)">
+            <summary>
+            Removes a specific Amp from Amp table.
+            </summary>
+            <param name="amp">The Amp which we want to remove.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.RemoveFromGuitar(MyGuitarShop.Data.Guitar)">
+            <summary>
+            Removes a specific Guitar from Guitar table.
+            </summary>
+            <param name="guitar">The Guitar which we want to remove.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.GuitarAccessoryCount">
+            <summary>
+            Gives the count of how much Accessories are assigned to a specific Guitar.
+            </summary>
+            <returns>A list of GuitarAccessoryCount.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ManagementLogic.GuitarAccessoryCountAsync">
+            <summary>
+            Gives the count of how much Accessories are assigned to a specific Guitar but with parallelism.
+            </summary>
+            <returns>A task out of lists out of GuitarAccessoryCount.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Logic.ProcurementLogic">
+            <summary>
+            Functions that a member of Procurement uses.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.#ctor(MyGuitarShop.Repository.IGuitarRepository,MyGuitarShop.Repository.IAmpRepository,MyGuitarShop.Repository.IAccessoryRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Logic.ProcurementLogic"/> class.
+            </summary>
+            <param name="gurepo">A RepositoryClass class, which implements IGuitarRepository interface.</param>
+            <param name="amrepo">A RepositoryClass class, which implements IAmpRepository interface.</param>
+            <param name="acrepo">A RepositoryClass class, which implements IAccessoryRepository interface.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAccessoryDetermination(System.Int32,System.String)">
+            <summary>
+            Changes an Accessory's determination.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newDetermination">To what determination.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAccessoryDiscountPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes an Accessory's discount price.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newDiscountPrice">To what discount price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAccessoryModell(System.Int32,System.String)">
+            <summary>
+            Changes an Accessory's modell.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAccessoryPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes an Accessory's price.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAccessoryQuantity(System.Int32,System.Int32)">
+            <summary>
+            Changes an Accessory's quantity.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <param name="newQuantity">To what quantity.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAmpBrand(System.Int32,System.String)">
+            <summary>
+            Changes an Amp's brand.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAmpModell(System.Int32,System.String)">
+            <summary>
+            Changes an Amp's brand.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeAmpPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes an Amp's price.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeGuitarBrand(System.Int32,System.String)">
+            <summary>
+            Changes a Guitar's brand.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <param name="newBrand">To what brand.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeGuitarModell(System.Int32,System.String)">
+            <summary>
+            Changes a Guitar's modell.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <param name="newModell">To what modell.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.ChangeGuitarPrice(System.Int32,System.Int32)">
+            <summary>
+            Changes a Guitar's price.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <param name="newPrice">To what price.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.InsertAccessory(MyGuitarShop.Data.Accessory)">
+            <summary>
+            Inserts the given Accessory into the Accessory table.
+            </summary>
+            <param name="accessory">The Accessory to be inserted.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.InsertAmp(MyGuitarShop.Data.Amp)">
+            <summary>
+            Inserts the given Amp into the Amp table.
+            </summary>
+            <param name="amp">The Amp to be inserted.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.ProcurementLogic.InsertGuitar(MyGuitarShop.Data.Guitar)">
+            <summary>
+            Inserts the given Guitar into the Guitar table.
+            </summary>
+            <param name="guitar">The Guitar to be inserted.</param>
+        </member>
+        <member name="T:MyGuitarShop.Logic.SellerLogic">
+            <summary>
+            Functions that a Seller uses.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.#ctor(MyGuitarShop.Repository.IGuitarRepository,MyGuitarShop.Repository.IAmpRepository,MyGuitarShop.Repository.IAccessoryRepository,MyGuitarShop.Repository.IGuitarAmpRepository,MyGuitarShop.Repository.IGuitarAccessoryRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Logic.SellerLogic"/> class.
+            </summary>
+            <param name="guitarrepo">A RepositoryClass class, which implements IGuitarRepository interface.</param>
+            <param name="amprepo">A RepositoryClass class, which implements IAmpRepository interface.</param>
+            <param name="accrepo">A RepositoryClass class, which implements IAccessoryRepository interface.</param>
+            <param name="guamrepo">A RepositoryClass class, which implements IGuitarAmpRepository interface.</param>
+            <param name="guaccrepo">A RepositoryClass class, which implements IGuitarAccessoryRepository interface.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.#ctor(MyGuitarShop.Repository.IGuitarRepository,MyGuitarShop.Repository.IAmpRepository,MyGuitarShop.Repository.IAccessoryRepository)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Logic.SellerLogic"/> class with only the main repos.
+            </summary>
+            <param name="guitarrepo">A RepositoryClass class, which implements IGuitarRepository interface.</param>
+            <param name="amprepo">A RepositoryClass class, which implements IAmpRepository interface.</param>
+            <param name="accrepo">A RepositoryClass class, which implements IAccessoryRepository interface.</param>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetAccessoryById(System.Int32)">
+            <summary>
+            Gets a specific Accessory by given id.
+            </summary>
+            <param name="id">Id of the desired Accessory.</param>
+            <returns>An Accessory.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetAllAccessories">
+            <summary>
+            Gets all the Accessories.
+            </summary>
+            <returns>A list of Accessories.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetAllAmps">
+            <summary>
+            Gets all the Amps.
+            </summary>
+            <returns>A list of Amps.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetAllGuitars">
+            <summary>
+            Gets all the Guitars.
+            </summary>
+            <returns>A list of Guitars.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetAmpById(System.Int32)">
+            <summary>
+            Gets a specific Amp by given id.
+            </summary>
+            <param name="id">Id of the desired Amp.</param>
+            <returns>An Amp.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetGuitarAmpCombos">
+            <summary>
+            Gets all the Guitar-Amp Combos.
+            </summary>
+            <returns>A list of GuitarAmps.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetGuitarAccessoryCombos">
+            <summary>
+            Gets all the Guitar-Accessory Combos.
+            </summary>
+            <returns>A list of GuitarAccessories.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Logic.SellerLogic.GetGuitarById(System.Int32)">
+            <summary>
+            Gets a specific Guitar by given id.
+            </summary>
+            <param name="id">Id of the desired Guitar.</param>
+            <returns>A Guitar.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyGuitarShop.Data</name>
+    </assembly>
+    <members>
+        <member name="T:MyGuitarShop.Data.Accessory">
+            <summary>
+            Entity class Accessory.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.Accessory.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Data.Accessory"/> class.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.AccessoryId">
+            <summary>
+            Gets or sets the Id of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.Determination">
+            <summary>
+            Gets or sets the determination of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.Brand">
+            <summary>
+            Gets or sets the brand of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.Modell">
+            <summary>
+            Gets or sets the modell of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.Quantity">
+            <summary>
+            Gets or sets the quantity of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.Price">
+            <summary>
+            Gets or sets the price of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.DiscountPrice">
+            <summary>
+            Gets or sets the discount price of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.MainData">
+            <summary>
+            Gets a formatted string of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Accessory.GuitarAccessories">
+            <summary>
+            Gets or sets a collection of GuitarAccessories.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.Accessory.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">The object we want to compare to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Data.Accessory.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique int.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Data.Amp">
+            <summary>
+            Entity class Amp.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.Amp.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Data.Amp"/> class.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.AmpId">
+            <summary>
+            Gets or sets the Id of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.Brand">
+            <summary>
+            Gets or sets the brand of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.Modell">
+            <summary>
+            Gets or sets the modell of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.Power">
+            <summary>
+            Gets or sets the power of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.Type">
+            <summary>
+            Gets or sets the type of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.Price">
+            <summary>
+            Gets or sets the price of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.MainData">
+            <summary>
+            Gets a formatted string of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Amp.GuitarAmps">
+            <summary>
+             Gets or sets a collection of GuitarAmps.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.Amp.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">The object we want to compare to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Data.Amp.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique int.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Data.Guitar">
+            <summary>
+            Entity class Guitar.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.Guitar.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Data.Guitar"/> class.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.GuitarId">
+            <summary>
+            Gets or sets the Id of an Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.Brand">
+            <summary>
+            Gets or sets the brand of an Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.Modell">
+            <summary>
+            Gets or sets the modell of an Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.Category">
+            <summary>
+            Gets or sets the category of an Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.Type">
+            <summary>
+            Gets or sets the type of an Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.Price">
+            <summary>
+            Gets or sets the price of an Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.FretNumber">
+            <summary>
+            Gets or sets the number of frets of an Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.MainData">
+            <summary>
+            Gets a formatted string of a Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.GuitarAmps">
+            <summary>
+            Gets or sets a collection of GuitarAmps.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.Guitar.GuitarAccessories">
+            <summary>
+            Gets or sets a collection of GuitarAccessories.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.Guitar.Equals(System.Object)">
+            <summary>
+            Decides that the given object is identical to this instance.
+            </summary>
+            <param name="obj">The object we want to compare to this instance.</param>
+            <returns>A 0 if the two object isn't equal, a 1 if the two object is equal.</returns>
+        </member>
+        <member name="M:MyGuitarShop.Data.Guitar.GetHashCode">
+            <summary>
+            Gets the hashcode of this instance.
+            </summary>
+            <returns>An unique int.</returns>
+        </member>
+        <member name="T:MyGuitarShop.Data.GuitarAccessory">
+            <summary>
+            Entity class for GuitarAccessory junction table.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAccessory.GuitarId">
+            <summary>
+            Gets or sets the Id (Foreign Key) of a Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAccessory.Guitar">
+            <summary>
+            Gets or sets the related Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAccessory.AccessoryId">
+            <summary>
+            Gets or sets the Id (Foreign Key) of an Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAccessory.Accessory">
+            <summary>
+            Gets or sets the related Accessory entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAccessory.MainData">
+            <summary>
+            Gets a formatted string of a GuitarAccessory entity.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Data.GuitarAmp">
+            <summary>
+            Entity class for GuitarAmp junction table.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAmp.GuitarId">
+            <summary>
+            Gets or sets the Id (Foreign Key) of a Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAmp.Guitar">
+            <summary>
+            Gets or sets the related Guitar entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAmp.AmpId">
+            <summary>
+            Gets or sets the Id (Foreign Key) of an Amp entity.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarAmp.Amp">
+            <summary>
+            Gets or sets the related Amp entity.
+            </summary>
+        </member>
+        <member name="T:MyGuitarShop.Data.GuitarContext">
+            <summary>
+            Responsible for the initialization of the database.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.GuitarContext.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MyGuitarShop.Data.GuitarContext"/> class.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarContext.Guitars">
+            <summary>
+            Gets or sets the elements of the Guitar table.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarContext.Amps">
+            <summary>
+            Gets or sets the elements of the Amp table.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarContext.Accessories">
+            <summary>
+            Gets or sets the elements of the Accessories table.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarContext.GuitarAmps">
+            <summary>
+            Gets or sets the elements of the GuitarAmps table.
+            </summary>
+        </member>
+        <member name="P:MyGuitarShop.Data.GuitarContext.GuitarAccessories">
+            <summary>
+            Gets or sets the elements of the GuitarAccessories table.
+            </summary>
+        </member>
+        <member name="M:MyGuitarShop.Data.GuitarContext.OnConfiguring(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)">
+            <summary>
+            Responsible for the setting up of the database.
+            </summary>
+            <param name="optionsBuilder">DbContextOptionBuilder type optionsBuilder, used to configure instances.</param>
+        </member>
+        <member name="M:MyGuitarShop.Data.GuitarContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Responsible for the initalization, and connection of the database.
+            </summary>
+            <param name="modelBuilder">ModelBuilder type modelBuilder, used to initialize Database.</param>
+        </member>
+    </members>
+</doc>

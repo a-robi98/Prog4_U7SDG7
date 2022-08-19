@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['insert_228',['Insert',['../interface_my_guitar_shop_1_1_repository_1_1_i_repository.html#a55681f833fa274fb672dca67318f0793',1,'MyGuitarShop.Repository.IRepository.Insert()'],['../class_my_guitar_shop_1_1_repository_1_1_repository_class.html#af1ec05717280054823b6e3b043e52775',1,'MyGuitarShop.Repository.RepositoryClass.Insert()']]],
+  ['insertaccessory_229',['InsertAccessory',['../interface_my_guitar_shop_1_1_logic_1_1_i_procurement_logic.html#a3d0e8d3b32fff967d0cfa5b6c2a33953',1,'MyGuitarShop.Logic.IProcurementLogic.InsertAccessory()'],['../class_my_guitar_shop_1_1_logic_1_1_procurement_logic.html#a39d49817f057f0cc2367dc5ab305eae3',1,'MyGuitarShop.Logic.ProcurementLogic.InsertAccessory()']]],
+  ['insertamp_230',['InsertAmp',['../interface_my_guitar_shop_1_1_logic_1_1_i_procurement_logic.html#a3c3d1840411e41418170b4f08a0d1d2a',1,'MyGuitarShop.Logic.IProcurementLogic.InsertAmp()'],['../class_my_guitar_shop_1_1_logic_1_1_procurement_logic.html#a5a96309f634e6ed0ecde9409d05c8e94',1,'MyGuitarShop.Logic.ProcurementLogic.InsertAmp()']]],
+  ['insertguitar_231',['InsertGuitar',['../interface_my_guitar_shop_1_1_logic_1_1_i_procurement_logic.html#a20f7039988a7b7b617e7fe08caca0a1a',1,'MyGuitarShop.Logic.IProcurementLogic.InsertGuitar()'],['../class_my_guitar_shop_1_1_logic_1_1_procurement_logic.html#a9ea53920d92a216aa5fbd992c82a118f',1,'MyGuitarShop.Logic.ProcurementLogic.InsertGuitar()']]]
+];
