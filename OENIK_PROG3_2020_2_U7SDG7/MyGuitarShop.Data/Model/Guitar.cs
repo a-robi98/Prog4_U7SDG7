@@ -5,6 +5,7 @@
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Text;
+    using System.Text.Json.Serialization;
 
     /// <summary>
     /// Entity class Guitar.
@@ -73,12 +74,14 @@
         /// Gets or sets a collection of GuitarAmps.
         /// </summary>
         [NotMapped]
+        [JsonIgnore]
         public virtual ICollection<GuitarAmp> GuitarAmps { get; set; }
 
         /// <summary>
         /// Gets or sets a collection of GuitarAccessories.
         /// </summary>
         [NotMapped]
+        [JsonIgnore]
         public virtual ICollection<GuitarAccessory> GuitarAccessories { get; set; }
 
         /// <summary>
