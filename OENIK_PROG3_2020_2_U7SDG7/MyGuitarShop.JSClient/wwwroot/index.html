@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Guitars</title>
+    <link href="guitar.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Guitars</h1>
+    <h3>Create, read, update or delete your guitar data</h3>
+    <div id="creatediv">
+        <p>Create guitar data</p>
+        <label>Brand</label>
+        <input type="text" id="createbrand" />
+        <label>Modell</label>
+        <input type="text" id="createmodell" />
+        <button type="button" onclick="create()">Create guitar</button>
+    </div>
+    <!--<div id="searchdiv">
+        <p>Search through data</p>
+        <input type="text" id="searchid" />
+        <button type="button" onclick="search('')">Search</button>
+    </div>-->
+    <div id="updatediv">
+        <p>Update</p>
+        <label>Brand</label>
+        <input type="text" id="updatebrand" />
+        <label>Modell</label>
+        <input type="text" id="updatemodell" />
+        <label>Price</label>
+        <input type="number" id="updateprice" />
+        <button type="button" onclick="update()">Update</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <td>Id</td>
+                <td>Brand</td>
+                <td>Model</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody id="guitarresult">
+        </tbody>
+    </table>
+
+    <script src="guitar.js"></script>
+</body>
+</html>
