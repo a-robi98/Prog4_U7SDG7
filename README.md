@@ -20,7 +20,7 @@ A Konzolos UI a következő funkciókkal fog rendelkezni:
 A Webes UI funkciói:
  - Gitárok listázása
  - Gitárok hozzáadása
- - Giátrok módosítása
+ - Gitárok módosítása
  - Gitárok törlése
  
 További implementálandó funkciók:
